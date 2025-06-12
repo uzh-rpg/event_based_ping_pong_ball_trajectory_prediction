@@ -59,12 +59,10 @@ pip install -r requirements.txt
 ```
 ### 5. Run the Project
 
-There is an example sequence provided in `data/test_sequence_1.zip`.  
-Extract the ZIP file first, then run the main pipeline on the extracted sequence:
+There is an example sequence provided in `data/test_sequence_1.zip`. Extract the ZIP file first, then run the main pipeline on the extracted sequence:
 
 ```bash
 python3.8 ./perception_pipeline_ball.py ./data/test_sequence_1
 ```
 
-For every sequence, there is a `config.yml` file inside the sequence folder.  
-You can change parameters and settings for your experiments by editing this config file.
+For every sequence, there is a `config.yml` file inside the sequence folder. You can change parameters and settings for your experiments by editing this config file.
