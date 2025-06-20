@@ -1,16 +1,28 @@
 # Egocentric Event-Based Vision for Ping Pong Ball Trajectory Prediction
 
+<p align="center">
+  <img src="media/pipeline_examples.png" alt="Pipeline Example" width="600"/>
+</p>
+
 This repository contains the official code for the paper **Egocentric Event-Based Vision for Ping Pong Ball Trajectory Prediction**  ([paper](https://rpg.ifi.uzh.ch/docs/Alberico_cvprw25.pdf)). This paper has been accepted for publication at the IEEE Computer Vision and Pattern Recognition Workshop (CVPRW), Nashville, 2025. ©IEEE
+
+
+If you use any of this code, please cite the following publication:
+
+```bibtex
+@Article{Alberico25cvprw,
+  author  = {Ivan Alberico and Marco Cannici and Giovanni Cioffi and Davide Scaramuzza},
+  title   = {Egocentric Event-Based Vision for Ping Pong Ball Trajectory Prediction},
+  journal = {Computer Vision and Pattern Recognition Workshop (CVPRW)},
+  year    = {2025},
+}
+```
 
 ---
 
 ## 📝 Project Overview
 
 In this work, we present a real-time egocentric trajectory prediction system for table tennis using event cameras. Unlike standard cameras, which suffer from high latency and motion blur at fast ball speeds, event cameras provide higher temporal resolution, enabling more frequent state updates, greater robustness to outliers, and accurate trajectory predictions using just a short time window after the opponent’s impact. This is the first framework for egocentric table-tennis ball trajectory prediction using event cameras.
-
-<p align="center">
-  <img src="media/pipeline_examples.png" alt="Pipeline Example" width="600"/>
-</p>
 
 ---
 
